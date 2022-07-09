@@ -1,0 +1,50 @@
+.row {
+    padding-top: 6em;
+}
+
+/* cabecalho */
+
+header {
+    background: #000;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+
+.botao {
+    background: linear-gradient( 60deg, #ff7db2, #3d40f4, #02d3ff);
+    padding: 0 2em;
+    border-radius: 0.5em;
+}
+
+/* fim cabecalho */
+
+section {
+    height: 91vh;
+    background: #000;
+    color: #fff;
+}
+
+.cor-texto {
+    background-image: linear-gradient(to right,#ff7db2, #3d40f4, #02d3ff);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+    margin-bottom: -0.1em;
+}
+
+
+.botao2 {
+    background: linear-gradient( 60deg, #ff7db2, #3d40f4, #02d3ff);
+    padding: 0 2em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.7em 2em;
+    color: #fff;
+    font-size: 1.1  0em;
+}
